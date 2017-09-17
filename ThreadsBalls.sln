@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadsBalls", "ThreadsBalls\ThreadsBalls.csproj", "{4318A8DD-3345-4FE6-A91F-35E03BACF3F4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BallsPicturesMultithread", "E:\ORT_1708\C#\Balls\BallsPictures\BallsPicturesMultithread.csproj", "{C4FCDF09-86E3-4283-85F3-F1F232A79764}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BallsPicturesSingleThread", "E:\ORT_1708\C#\BallsPictures\BallsPicturesSingleThread.csproj", "{650DC2D9-DD78-4A52-86C1-E62B06C01980}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4318A8DD-3345-4FE6-A91F-35E03BACF3F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4318A8DD-3345-4FE6-A91F-35E03BACF3F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4318A8DD-3345-4FE6-A91F-35E03BACF3F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4318A8DD-3345-4FE6-A91F-35E03BACF3F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4FCDF09-86E3-4283-85F3-F1F232A79764}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4FCDF09-86E3-4283-85F3-F1F232A79764}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4FCDF09-86E3-4283-85F3-F1F232A79764}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4FCDF09-86E3-4283-85F3-F1F232A79764}.Release|Any CPU.Build.0 = Release|Any CPU
+		{650DC2D9-DD78-4A52-86C1-E62B06C01980}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{650DC2D9-DD78-4A52-86C1-E62B06C01980}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{650DC2D9-DD78-4A52-86C1-E62B06C01980}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{650DC2D9-DD78-4A52-86C1-E62B06C01980}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
